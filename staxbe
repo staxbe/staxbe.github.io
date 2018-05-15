@@ -1,0 +1,13 @@
+<!doctype html><!--声明是一个HTML文件-->
+<html>
+  <!--头部开始-->
+  <head>
+    <title>HELLO WORLD!</title>
+  </head>
+  <!--头部结束-->
+  <!--主体开始-->
+  <body>
+    <p font-size:"24px">你好！世界</p>
+  </body>
+  <!--主体结束-->
+</html>
