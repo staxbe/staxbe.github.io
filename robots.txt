@@ -3,3 +3,5 @@ Disallow:/A/
 Disallow:/b/
 Disallow:/D/
 Disallow:/favicon.ico
+Disallow:/1.jpg/
+Disallow:/Ab.gif
