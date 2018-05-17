@@ -1,2 +1,4 @@
 User-agent:*
 Disallow:/favicon.ico
+
+Sitemap:https://staxbe.github.io/sitemap.xml
