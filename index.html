@@ -3,6 +3,32 @@
   <!--头部开始-->
   <head>
     <title>HELLO WORLD!</title>
+    <style type="text/css">  
+        *{  
+            margin: 0px;  
+            padding: 0px;  
+        }  
+        video{  
+            position: fixed;  
+            right: 0px;  
+            bottom: 0px;  
+            min-width: 100%;  
+            min-height: 100%;  
+            height: auto;  
+            width: auto;
+            z-index: -9999;  
+            /*加滤镜*/  
+            /*-webkit-filter: grayscale(100%);*/  
+            /*filter:grayscale(100%);*/  
+        }  
+        source{  
+            min-width: 100%;  
+            min-height: 100%;  
+            height: auto;  
+            width: auto;  
+        }  
+        p.color{color: white}
+    </style>  
     <link rel="apple-touch-icon" href="https://staxbe.github.io/ios.jpg">
 <meta name="apple-mobile-web-app-title" content="rainbowsix">
 <script>
@@ -14,19 +40,23 @@ var _hmt = _hmt || [];
   s.parentNode.insertBefore(hm, s);
 })();
 </script>
+  
   </head>
   <!--头部结束-->
   <!--主体开始-->
   <body>
-    <article align="center">
-    <p font-size:"24px"><h1><div style="margin-bottom: 50px">你好！世界</div> </h1></p>
-    <p>This website is created for my own school project,click here to read more content:</p>
-    <p><a href="six.html">rainbowsix new italian defender:alibi</a> </p>
-    <p><a href="rainbowsix/maestro.html">rainbowsix new italian defender:maestro</a> </p>
+    <article align="center" class="color">
+    <p><div style="margin-bottom: 50px;margin-top: 200px"><span style="color: white;font-size: 48px">你好！世界</span> </div></p>
+    <p><span style="font-size: 18px;color: white"> This website is created for my own school project,click here to read more content:</span></p>
+    <p><span style="color: white"><a href="six.html">rainbowsix new italian defender:alibi</span></a> </p>
+    <p><span style="color: white"><a href="rainbowsix/maestro.html">rainbowsix new italian defender:maestro</span></a> </p>
     <br>
-    <p>click here to go to the canton tower:</p>
-    <p><a href="https://j.map.baidu.com/mNAHO" target="new"><img src="map.png" width="800px" height="400px"></a></p>
+    <!-- <p>click here to go to the canton tower:</p>
+    <p><a href="https://j.map.baidu.com/mNAHO" target="new"><img src="map.png" width="800px" height="400px"></a></p>-->
   </article>
+<video autoplay="autoplay" loop="loop">  
+    <source  src="night.mp4" type="video/mp4" >;  
+</video>  
   </body>
   <!--主体结束-->
 </html>
