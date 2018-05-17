@@ -1,7 +1,13 @@
 User-agent:*
 Disallow:/A/
-Disallow:/b/
 Disallow:/D/
-Disallow:/favicon.ico
 Disallow:/1.jpg/
-Disallow:/Ab.gif
+Disallow:/321/about.html
+
+User-agent:Baiduspider
+Disallow:/E/
+Disallow:/F/
+Disallow:/3.jpg/
+Disallow:/1.jpg
+
+Sitemap:https://www.baidu.com/sitemap.xml
