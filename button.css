@@ -1,0 +1,24 @@
+        button{
+          background-color: white;
+          color: #3f3f3f;
+          opacity: 0.8;/*透明度*/
+          border: none;
+          text-align: center;
+          text-decoration: none;
+          padding: 15px 32px;
+          display: inline-block;
+        }
+        button:hover{
+          background-color: black;
+          color: white;
+          transition-duration: 0.4s;
+        }
+        /*a.link,a.visited
+        {
+          text-decoration: none;
+          color: white;
+        }
+        a.hover{
+          color: white;
+          text-decoration: none;
+        }*/
